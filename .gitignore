@@ -25,8 +25,6 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
-.idea/
-.DS_Store
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -91,25 +89,7 @@ ENV/
 
 # Rope project settings
 .ropeproject
-### VirtualEnv template
-# Virtualenv
-# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
-.Python
-[Bb]in
-[Ii]nclude
-[Ll]ib
-[Ll]ib64
-[Ll]ocal
-[Ss]cripts
-pyvenv.cfg
-.venv
-pip-selfcheck.json
 
-README.md
-SsoServer/
+.gitignore
+.idea/
 db.sqlite3
-demo.log
-demo/
-manage.py
-requirements.txt
-test_server/
